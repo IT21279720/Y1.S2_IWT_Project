@@ -1,0 +1,172 @@
+body{
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+
+
+
+body{
+background-color:#000000;
+}
+
+.SI{
+background-color:#f1f1f1;
+border-radius: 25px;
+padding:25px 25px;
+margin:15px 15px;
+
+
+}
+
+.PM{
+background-color:#f1f1f1;
+border-radius: 25px;
+padding:25px 25px;
+margin:15px 15px;
+}
+
+.tsi{
+font-weight: bold;
+font-size:20px;
+}
+
+.tpm{
+font-weight: bold;
+font-size:20px;
+}
+
+a{
+color:#0000ff;
+text-decoration:none;}
+
+
+
+
+#form1{
+	margin:40px;
+	
+}
+
+
+.f{
+margin:50px 500px;
+background-color:white;
+border-radius: 15px;
+border: 2px solid black;
+}
+
+
+
+p{
+	text-align:center;
+}
+
+.head1{
+font-weight: bold;
+font-size:30px;
+}
+
+input{
+background: #f1f1f1;
+border-radius: 6px;
+}
+
+lable{
+ font-weight: bold;}
+ 
+.Container{
+padding:10px;
+background: #ffffff;
+border-radius: 15px;
+
+}
+  
+#firstname{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+#secondname{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+#address{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;}	
+	
+
+#birthday{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;}
+
+#email{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+
+#telnum{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+#password1{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+#password2{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+width:400px;
+}
+
+#submit{
+display: inline-block;
+padding:10px 10px;
+margin:15px 0px;
+cursor:pointer;
+background-color:black;
+color:white;
+width:100px;
+
+margin:0px 0px 0px 160px
+}
+
+#sfirstname{
+	color:green;
+}
+
+#sbirthday{
+	color:green;
+}
+#stelnum{
+	color:green;
+}
+#spassword1{
+	color:green;
+}
+#spassword2{
+	color:green;
+}
+
+#submit:hover{
+	background-color:red;
+}

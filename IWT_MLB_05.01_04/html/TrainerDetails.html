@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Registration</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/TrainerDetails.css" />
+    <script src="../js/TrainerDetails.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <h1 class="title">Fitness Trainer's Registration Registration Form</h1>
+
+
+    <div class="form">
+        <form method="POST" action="../php/trainerdetails.php">
+            <ul>
+                <li>
+                    <p>Trainer's First Name : <input type="text" name="FirstName" id="FName" placeholder="Trainer's First Name"></p>
+                </li>
+                <li>
+                    <p>Trainer's Last Name : <input type="text" name="LastName" id="Lname" placeholder="Trainer's Last Name"></p>
+                </li>
+                <li>
+                    <p>Date Of Birth : <input type="date" name="day"></p>
+                </li>
+                <li>
+                    <p>Mobile Number : <input type="mobile number" name="MobileNumber" pattern="[0-9]{10}" placeholder="1234567890" id="Mnum"></p>
+                </li>
+                <li>
+                    <p>E mail : <input type="email" name="email" placeholder="abc@gmail.com" id="email"></p>
+                </li>
+                <li>
+                    <p>Address : <input type="text" name="Address" placeholder="Address" id="address" rows="8" cols="50" required></p>
+                </li>
+
+                <div class="chkbox">
+                    <input type="checkbox" id="checkbox" name="A" value="3" onclick="enableButton()"> Accept privacy term
+                </div>
+                <div class="btn">
+
+                    <input type="submit" class="btn btn-primary" />
+                </div>
+            </ul>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

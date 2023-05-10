@@ -1,0 +1,62 @@
+.hero{
+    width:500px;
+	height:600px;
+	position:relative;
+    padding: 90px 70px 60px 70px;
+    margin: 6% auto;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    
+	
+}
+h2{
+    font-family: 'Bahnschrift SemiBold';
+	text-align:center;
+    color:black;
+    font-size: 70px;
+}
+.btn{
+    font-family: 'Bahnschrift SemiBold';
+	font-size: 20px;
+	border:1px ;
+	text-align:center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:white;
+	box-shadow: 0 0 2px;
+	border-radius:15px;
+	width:100%;
+    height: 50px;
+	cursor:pointer;
+    background-color: black;
+	
+  
+}
+.btn:hover{
+        background-color:white;
+        color:black;
+}
+.tag{
+    
+    font-family: 'Bahnschrift SemiBold';
+    color:black;
+    
+}
+input[type=text], input[type=password] {
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+    margin: 20px 0 15px;
+    border-bottom: 1px black;
+    background: whitesmoke;
+    outline: none;
+    border-radius: 15px;
+}
+.a3{
+    font-family: 'Bahnschrift SemiBold';
+    text-align:center;
+    color:black;
+	font-size: 15px;
+    text-decoration: none;}

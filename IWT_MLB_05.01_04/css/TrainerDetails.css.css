@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Concert+One&family=Courgette&family=Lobster+Two:wght@700&family=Mitr:wght@500&family=Oxygen&family=Roboto+Slab:wght@700&family=Rubik:ital@1&family=Work+Sans:ital,wght@1,300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form input {
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    border: 2px solid rgb(95, 87, 87);
+    margin-bottom: 5px;
+    color: rgb(14, 1, 1);
+}
+
+.form {
+    margin: auto;
+    width: 75%;
+    background: rgba(14, 88, 214, 0.5);
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 5, 5);
+}
+
+.title {
+    color: rgb(81, 234, 43);
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1.2%;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 4px #d8cfcf;
+}
+
+.form li {
+    list-style: none;
+    margin: 13px;
+}
+
+#address {
+    height: 80px;
+    width: 200px;
+    padding: none;
+}
+
+#FName {
+    width: 250px;
+    height: 20px;
+}
+
+#Lname {
+    width: 250px;
+    height: 20px;
+}
+
+#pwd {
+    width: 200px;
+    height: 20px;
+}
+
+#cmdpwd {
+    width: 200px;
+    height: 20px;
+}
+
+.overlay1 {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+.title2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.para {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+
+#submitbn {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 15px;
+}
+
+.chkbox {
+    margin-left: 10px;
+}
+
+.details li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.details {
+    margin: 0 40px;
+    background: snow;
+    border-radius: 13px;
+}

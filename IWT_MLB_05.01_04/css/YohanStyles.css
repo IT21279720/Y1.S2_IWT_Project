@@ -1,0 +1,19 @@
+body {
+    color: black;
+    font-family: 'ubuntu', sans-serif;
+  }
+  
+  h1 {
+    
+    font-family: 'ubuntu', sans-serif;
+    font-size: 300%;
+  }
+  
+  img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 225px;
+  }
+  
+  

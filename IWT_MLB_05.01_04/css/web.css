@@ -1,0 +1,264 @@
+body{
+background-image: url('../images/Fitness20.jpg');
+background-size:cover;
+}
+
+form{
+	transition:1s;
+	position:absolute;
+}
+
+input{
+	color:white;
+}
+
+#pname{
+	color:green;
+}
+
+#pstreet{
+	color:green;
+}
+
+#pcity{
+	color:green;
+}
+
+#pzip{
+	color:green;
+}
+
+#pnumber{
+	color:green;
+}
+
+#pcard{
+
+}
+
+p{
+	margin: 40px 0px 20px 50px;
+}
+
+#st{
+	margin-left:70px;
+}
+
+#nav{
+	background-color:white;
+	width:290px;
+	height:60px;
+	
+	transition:1s;
+	overflow:hidden;
+	
+}
+
+textarea:focus, input:focus {
+    color: gray;
+}
+
+.new{
+
+padding:10px 0px;
+margin:15px 0px;
+width:500px;
+border:0px;
+border-bottom:1px solid #999;
+outline:none;
+background:transparent;
+}
+
+select{
+padding:10px 0px;
+margin:15px 0px;
+width:500px;
+border:0px;
+border-bottom:1px solid #999;
+outline:none;
+background:transparent;
+}
+
+.card{
+background: #ffffff;
+border-radius: 15px;
+position:relative;
+height:900px;
+width:500px;
+margin:0% auto ;
+padding:40px;
+overflow:hidden;
+background-image: url("../images/Fitness52.jpg");
+border: 1px solid white;
+}
+
+
+p{
+font-weight: bold;
+font-size:30px;
+text-align:center;
+color:white;
+text-shadow: 2px 2px 4px #000000;
+}
+
+center{
+	margin:0px 70px 0px 0px;
+}
+	
+
+#fo3{
+	margin:20px 0px 0px 40px;
+	
+}
+
+#fo2{
+	left:600px;
+}
+
+#fo1{
+	left:600px;
+}
+
+#fo3{
+	left:40px;
+}
+
+.fo2sub{
+padding:10px 0px;
+margin:15px 0pxl;
+width : 100px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.fo3sub{
+padding:10px 0px;
+margin:15px 0pxl;
+width : 100px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#picvisa{
+	border: 5px solid black;
+}
+
+#picmaster{
+	border: 5px solid black;
+}
+
+.fo2con{
+	margin:15px 0px 0px 290px;	
+}
+
+.fo3con{
+	margin:15px 0px 0px 290px;
+}
+
+#submit{
+	background-color:black;
+	color:white;
+}
+
+#cancel{
+	background-color:white;
+	color:black;
+}
+
+
+#next{
+	background-color:black;
+	color:white;
+}
+
+#next:hover{
+	background-color:fb2121;
+}
+
+#back:hover{
+	background-color:fb2121;
+}
+
+#back{
+	background-color:white;
+	color:black;
+	
+}
+
+label{
+	color:white;
+}
+
+select{
+	display:list-item;
+}
+
+.row{
+	width:600px;
+	height:60px;
+	margin: -40px -40px ;
+	display:flex;
+	color:black;
+	align-items:center;
+	box-shadow: 0px -1px 5px 0.5px #000;
+	background-color:black;
+	
+}
+
+.col{
+   	display:block;
+	text-align:center;
+	margin:0px 90px;
+	font-size:18px;
+	color:white;
+}	
+
+
+#confirm3{
+	background-color:black;
+	color:white;
+	border:1px solid #999;
+	border-radius: 5px;
+	width:100px;
+	cursor: pointer;
+	margin:0px 0px 0px 400px;
+}
+
+#meth{
+		background-color:black;
+	color:white;
+	border:1px solid #999;
+	border-radius: 5px;
+	width:100px;
+	cursor: pointer;
+	margin:0px 0px 0px 300px;
+}
+
+
+#line{
+    background-color:orange;
+    height:60px;
+    width:600px;	
+	position:relative;
+	background-color:orange;
+	left:-500px;
+}
+
+#visa{
+	cursor: pointer;
+}
+
+
+#payoneer{
+	cursor: pointer;
+}
+
+h2{
+	margin:opx 0px opx 50px;
+	color:white;
+}
+
+
+
+
+

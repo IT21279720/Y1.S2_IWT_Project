@@ -1,0 +1,36 @@
+.herol{
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    background-color: black;
+    margin-top: 10% auto;
+
+}
+.imagel{
+    height: auto;
+    width: 750px;
+}
+.textl{
+    width: 550px;
+}
+.mainl{
+    width: 1300px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.hl{
+    color:red;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pl{
+    color:aliceblue;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}

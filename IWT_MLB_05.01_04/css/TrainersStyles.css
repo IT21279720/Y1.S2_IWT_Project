@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: red;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 300%;
+  }
+  
+  /*img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 225px;
+  }*/
+  .column{
+      float: left;
+    width:20%;
+    padding: 5px;
+    margin-left: 100px;
+}.column .v:hover{
+    color: brown;
+}.column a{
+    font-size:18px ;
+    margin-left: 40px;
+   
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+   margin-left:130px ;
+   margin-top: 100px;
+}.btn a{
+    font-size: 30px;
+margin-left: 640px ;
+}
+.btn a:hover{color: rgba(255, 255, 255, 0.632);}
+  
+  /*.profiles{
+    background-color: #808080;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .profiles a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+  }
+  
+  .profiles a p{
+    font-size: 30px;
+    font-weight: 700px;
+  }
+  
+  .b{
+    background-color: #000080;
+    font-size: 70px;
+  }*/
+  
+  

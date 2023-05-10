@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PowerZone</title>
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_u.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/42ad09fc8e.js" crossorigin="anonymous"></script>
+	<style>
+body{
+background-image: url('../images/Fitness103.jpg');
+}
+</style>
+</head>
+<body>
+    <!-- Header-->
+    <div class="header">
+        <div class="header_content">
+            <div class="logo">
+                <a href="../html/index.html">
+                    <img src="../images/logo.png" height="90px" width="135px">
+                </a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="../html/index.html">
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/Plan.html">
+                            <span class="title">Plans</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../php/shop.php">
+                            <span class="title">Shop</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/brands.html">
+                            <span class="title">Brands</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/aboutus.html">
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <i class="bi bi-search" onclick="searchdropdown()"></i>
+                <div class="search-dropdown">
+                    <input type="text" spellcheck="false">
+                </div>
+                <a href="../php/Cart.php"><i class="bi bi-cart4"></i></a>
+                <i class="bi bi-person-circle" onclick="profiledropdown()"></i>
+                <div class="profile-dropdown">
+                    <a href="../html/login.html">
+                        <input type="button" value="Log In">
+                    </a>
+                    <a href="../html/signup.html">
+                        <input type="button" value="Sign Up">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End-->
+    
+    <!-- Code here -->
+	
+	
+	
+<!------body------->
+<body>
+
+<!--form-->
+<div class="f">
+
+<form id="form1" method="POST" action="../Php/Signup.php">
+
+<div class = "Container"><br>
+
+<p class = "head1">Create an account</p><br>
+<p>Please fill in this form to create an account.</p><br><br><hr><br>
+
+<!--line-->
+
+<br>
+
+<!--form implementation-->
+ <div>
+<label for = "firstname"> Full Name </lable><br>
+<input type = "text" id = "firstname" name = "FirstName"  placeholder="Full Name" required><br>
+</div>
+
+<div>
+<label for = "firstname"> Username </lable><br>
+<input type = "text" id = "secondname" name = "SecondName"  placeholder="Username" required><br>
+<span id="sfirstname"></span><br>
+</div>
+
+<div>
+<label for = "birthday"> Birthday </label><br>
+<input type = "date" id = "birthday" name = "birthday" placeholder="mm/dd/yyyy" required><br>
+<span id="sbirthday"></span><br>
+</div>
+
+<div>
+<label for = "email"> E-mail </label><br>
+<input type = "email" id = "email" name = "email"  placeholder="E-mail" required><br>
+<span id="semail"></span><br>
+</div>
+
+<div>
+<label for = "telnum"> Mobile Number </label><br>
+<input type = "tel" id = "telnum" name = "telnum"  placeholder="Mobile Number"required><br>
+<span id="stelnum"></span><br>
+</div>
+
+<div>
+<label for = "password1"> Password </label><br>
+<input type = "password" id = "password1" name = "password1"  placeholder="Password"required><br>
+<span id="spassword1"></span><br>
+</div>
+
+<div>
+<label for = "password2"> Confirm Password </label><br>
+<input type = "password" id = "password2" name = "password2"  placeholder="Confirm Password" onkeydown="valide()" required><br><br>
+<span id="spassword2"></span>
+</div>
+
+<div>
+<input type="checkbox" name="check"  required>
+<label for ="check"> 
+By creating an account you agree to our <a href="" style="color:dodgerblue">Terms & Privacy</a></label>.
+</div>
+
+<div class ="sub"><br><br>
+
+<input type ="submit" id ="submit" name="submit" value="Sign Up" placeholder="button" onclick="matchPassword()"><br><br>
+
+</div><br>
+
+</div>
+
+</form>
+</div>
+
+<script>
+
+var sfirstname = document.getElementById("firstname");
+var ssecondName = document.getElementById("secondName");
+var sbirthday = document.getElementById("birthday");
+var semail = document.getElementById("email");
+var stelnum = document.getElementById("telnum");
+var spassword1 = document.getElementById("password1");
+var spassword2 = document.getElementById("password2");
+
+var firstname = document.getElementById("firstname").value;
+var secondName = document.getElementById("secondName").value;
+var birthday = document.getElementById("birthday").value;
+var email = document.getElementById("email").value;
+var telnum = document.getElementById("telnum").value;
+var password1 = document.getElementById("password1").value;
+var password2 = document.getElementById("password2").value;
+
+var form1 = document.getElementById("form1");
+ 
+</script>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <div class="footer-col">
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div id="logo">
+                <img src="../images/logo.png" height="70px" width="125px">
+                <p class="copyright">&copy; Copyright PowerZone 2022. All Right Reserved.</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="app-links">
+                <a href="#" class="appstore">App Store</a>
+                <a href="#" class="playstore">Play Store</a>
+            </div>
+            <div class="social-media">
+                <a href="#" class="social-buttons"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-buttons"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-buttons"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-buttons"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="../js/javascript.js"></script>
+</body>
+</html>

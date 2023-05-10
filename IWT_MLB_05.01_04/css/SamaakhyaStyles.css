@@ -1,0 +1,27 @@
+body {
+    color: black;
+    font-family: 'ubuntu', sans-serif;
+  }
+  
+  h1 {
+    color: red;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 300%;
+  }
+  
+  img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 225px;
+  }
+  
+  div{
+    background-color: #808080;
+  }
+  
+  div{
+    background-color: #808080;
+  }
+  
+  
